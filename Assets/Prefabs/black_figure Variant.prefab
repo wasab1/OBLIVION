@@ -163,7 +163,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9dfac6627db06d74aa4e1c6a4c46f0d8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -270,8 +270,11 @@ MonoBehaviour:
   disintegrationTime: 2
   bisbiglio: {fileID: 0}
   soundIsPlaying: 0
-  audio_clips: []
-  bisbClip: {fileID: 0}
+  audio_clips:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bisbClip: {fileID: 8300000, guid: ea175e33177a6fe4ea9a73d243cfd8bb, type: 3}
   bisbVol: 0.1
   nebulosa: {fileID: 0}
   attractionAmt: 1
@@ -285,37 +288,37 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -23.165594
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.5180816
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.049
+      value: -88.898994
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.1762329
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.018823214
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.10452324
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.97860235
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
@@ -325,7 +328,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 20.418001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
@@ -335,27 +338,27 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -12.193001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.05
+      value: 0.012698734
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.05
+      value: 0.012698735
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.05
+      value: 0.012698735
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
       propertyPath: m_Name
-      value: black_figure Variant
+      value: black_figure_P1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 24fc132163cc5224e9984660594e6101,
         type: 3}
@@ -367,6 +370,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6684295394808222897, guid: 24fc132163cc5224e9984660594e6101,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ab87961e7afaa1478086c43a20974a8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24fc132163cc5224e9984660594e6101, type: 3}
 --- !u!1 &8278874104410495828 stripped
